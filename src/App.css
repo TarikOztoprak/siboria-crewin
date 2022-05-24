@@ -252,3 +252,60 @@ p.mail {
 .buyersFeedback>img{
   margin-right: 5px;
 }
+
+.recentlyAdded{
+  background-color: white;
+  padding: 20px;
+
+}
+
+.recentlyAdded>h1{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  
+  
+  color: #000000;
+
+
+}
+
+.recentlyAdded>p{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: #949494;
+
+
+
+}
+
+.recentlyAdded.price{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #000000;
+}
+
+.recentlyAdded.bid{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  
+  
+  color: #000000;
+}
