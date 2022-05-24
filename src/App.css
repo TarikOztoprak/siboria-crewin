@@ -1,38 +1,254 @@
-.App {
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 66px;
+}
+
+h1.blue {
+  color: #263fa3;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 31px;
+  color: #949494;
+}
+
+.btnn {
+  width: 150px;
+  height: 45px;
+
+  background-color: #ff7b29;
+  color: #ffffff;
+
+  border-radius: 10px;
+  border: none;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+}
+button:hover {
+  box-shadow: 0px 24px 16px -14px rgba(255, 123, 41, 0.31);
+}
+
+.Link {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.whiteSquare {
+  background-color: #ffffff;
+  box-shadow: 0px 18px 17px rgba(255, 123, 41, 0.1);
+  border-radius: 10px;
+}
+
+.searchForm {
+  background: #ffffff;
+  box-shadow: 0px 23px 58px rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+  height: 120px;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.mailSection {
+  background: #132742;
+  border-radius: 30px;
+  height: 400px;
+
+  padding-top: 50px;
+}
+
+.mailInput {
+  background: #ffffff;
+  border-radius: 10px;
+  
+  width: 80%;
+  height: 70px;
+  padding-left: 20px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+
+  color: #D1D1D1;
+ 
+}
+
+.mailInput::placeholder{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+
+  color: #949494;
+}
+
+h1.mail {
+  font-size: 39px;
+  line-height: 48px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+p.mail {
+  font-weight: 500;
+  font-size: 16px;
+  width: 411px;
+  font-style: normal;
+
+  color: #ffffff;
+}
+
+.siteMapLink{
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+
+  color: #949494;
+  text-decoration: none;
+}
+
+.topCategories {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.71) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(205, 200, 200, 0) 100%
+    );
+  border-radius: 20px;
+  height: 216px;
+}
+
+.topCategories2 {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.71) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(205, 200, 200, 0) 100%
+    );
+  border-radius: 20px;
+  height: 457px;
+}
+
+.categorieBadge {
+  width: 46px;
+  height: 26px;
+
+  background-color: #ffffff;
+  color: #ff7b29;
+  box-shadow: 0px 7px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 44px;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+
+  margin-left: 10px;
+  margin-top: 5px;
+
   text-align: center;
+  vertical-align: center;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.topCategories>img{
+  float: right;
+  margin-right: 20px;
+}
+.topCategories>h1{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+
+  padding-top: 120px;
+  padding-left: 10px;
+}
+.topCategories>p{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  padding-left: 10px;
+
+  color: #D6D6D6;
+}
+.topCategories2>img{
+  float: right;
+  margin-right: 20px;
+}
+.topCategories2>h1{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+
+  padding-top: 350px;
+  padding-left: 10px;
+}
+.topCategories2>p{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  padding-left: 10px;
+
+  color: #D6D6D6;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.buyersFeedback>h3{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+.buyersFeedback>p{
 
-.App-link {
-  color: #61dafb;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #949494;
+  margin-bottom: 0;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.buyersFeedback>img{
+  margin-right: 5px;
 }
