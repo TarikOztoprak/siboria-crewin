@@ -45,19 +45,21 @@ export default function RecentlyAdded() {
             <div style={{ textAlign: "center", backgroundColor: "#FAFAFA" }}>
               <img src={item.image} alt={item.name}></img>
             </div>
-            <h1>{item.name} </h1>
-            <p>
-              Year: {item.year} | {item.categorie}{" "}
-            </p>
+
             <Row>
+              <h1>{item.name} </h1>
+              <p>
+                Year: {item.year} | {item.categorie}{" "}
+              </p>
               <Col xs="6">
                 <h1 className="recentlyAdded price">$ {item.price}</h1>
                 <p className="recentlyAdded bid">{item.bids} bids do far</p>
               </Col>
               <Col xs="6">
-                <button>View Details</button>
-                <br/>
-                <p>Bidding closes in {item.closeIn} Days </p>
+                <button className="viewDetails">View Details</button>
+                <p className="closeIn">
+                  Bidding closes in {item.closeIn} Days{" "}
+                </p>
               </Col>
             </Row>
           </div>
